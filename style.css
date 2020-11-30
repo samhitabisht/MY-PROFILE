@@ -1,13 +1,45 @@
 h1 {
     color: black;
+    margin-left: 10%;
+    margin-right:20%;
+    margin-top: 5%;
+    margin-bottom: 18%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 7%;
+    border: solid green; 
 }
 
 /* * {
     border: solid;
 } */
+a:link{
+    color: rgb(20,180,139);
+}
 
+.item p{
+position: absolute;
+top: 50%;
+left:30%;
+transform: translate(-50%, -50%);
+opacity: 0; 
+}
+
+.item:hover p{
+    opacity:1; 
+}
+
+.item:hover img{
+    opacity:0.4;
+}
+.item {
+    position: relative;
+}
+a:visited{
+color: #AB257E;
+}
 .header{
-    background-color: skyblue;
+    background-color: #FF7721;
 }
 
 .site-description{
@@ -20,13 +52,19 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 
 .footer{
     display: flex;
     justify-content: flex-end;
+    background-color: rgb(2,67,149);
 }
 
 p,h2{
     text-align: center;
+}
+
+p{
+    color: #AB68E8;
 }
